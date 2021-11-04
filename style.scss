@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+body
+{
+    
+    margin:2px;
+    padding:10px;
+}
+#formBeg,#formEnd,h5
+{
+    color: blueviolet;
+}
+label{
+    color:rgb(18, 211, 211) ;
+}
+#venBillsInputDiv,#mediAddInputDiv,#corpSpenInputDiv,#teamProInputDiv
+{
+margin-left:5%;
+    display: flex;
+    width:100%;
+    
+    
+    
+    #venBillsInput,#mediAddInput,#corpSpenInput,#teamProInput
+    {
+       
+        width:60%;
+        height:30px;
+        
+    }
+    #venBillsInput,#corpSpenInput,#teamProInput
+    {
+       margin-left:45px;
+    }
+}
+
+#btnGrop1
+{
+    
+    justify-content: space-around;
+    #btnGrop1B1, #btnGrop1B2, #btnGrop1B3
+    {
+    border:1px solid grey;
+     margin-right:5px;
+    }
+}
+#cardProgDiv1
+{
+display: flex;
+#card1{
+display: flex;
+border: 1px solid gray;
+border-radius: 15px;
+padding:10px;
+margin:5px;
+    } 
+    .progress
+    {
+        width:100px;
+        display: inline-block;
+        background-color:blue;
+
+    }
+}
+#btnGrop2
+{
+    
+    justify-content: space-around;
+    #btnGrop2B1, #btnGrop2B2, #btnGrop2B3
+    {
+    border:1px solid grey;
+     margin-right:5px;
+    }
+}
+#cardProgDiv2
+{
+    display: flex;
+    
+        #card1{
+    display: flex;
+    
+    border-radius: 15px;
+    padding:10px;
+    
+        } 
+        .progress
+        {
+            width:100px;
+            display: inline-block;
+            background-color:blue;
+    
+        }
+    }
+    #div1,#div2,#div3
+    {
+        display: flex;
+    }
+
+    #pro1, #pro2
+    {width: 250px;
+        height: 30px;
+
+    }

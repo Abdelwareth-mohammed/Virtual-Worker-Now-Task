@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  margin: 2px;
+  padding: 10px;
+}
+
+#formBeg, #formEnd, h5 {
+  color: blueviolet;
+}
+
+label {
+  color: #12d3d3;
+}
+
+#venBillsInputDiv, #mediAddInputDiv, #corpSpenInputDiv, #teamProInputDiv {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+#venBillsInputDiv #venBillsInput, #venBillsInputDiv #mediAddInput, #venBillsInputDiv #corpSpenInput, #venBillsInputDiv #teamProInput, #mediAddInputDiv #venBillsInput, #mediAddInputDiv #mediAddInput, #mediAddInputDiv #corpSpenInput, #mediAddInputDiv #teamProInput, #corpSpenInputDiv #venBillsInput, #corpSpenInputDiv #mediAddInput, #corpSpenInputDiv #corpSpenInput, #corpSpenInputDiv #teamProInput, #teamProInputDiv #venBillsInput, #teamProInputDiv #mediAddInput, #teamProInputDiv #corpSpenInput, #teamProInputDiv #teamProInput {
+  width: 60%;
+  height: 30px;
+}
+
+#venBillsInputDiv #venBillsInput, #venBillsInputDiv #corpSpenInput, #venBillsInputDiv #teamProInput, #mediAddInputDiv #venBillsInput, #mediAddInputDiv #corpSpenInput, #mediAddInputDiv #teamProInput, #corpSpenInputDiv #venBillsInput, #corpSpenInputDiv #corpSpenInput, #corpSpenInputDiv #teamProInput, #teamProInputDiv #venBillsInput, #teamProInputDiv #corpSpenInput, #teamProInputDiv #teamProInput {
+  margin-left: 45px;
+}
+
+#btnGrop1 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#btnGrop1 #btnGrop1B1, #btnGrop1 #btnGrop1B2, #btnGrop1 #btnGrop1B3 {
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+
+#cardProgDiv1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cardProgDiv1 #card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+#cardProgDiv1 .progress {
+  width: 100px;
+  display: inline-block;
+  background-color: blue;
+}
+
+#btnGrop2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#btnGrop2 #btnGrop2B1, #btnGrop2 #btnGrop2B2, #btnGrop2 #btnGrop2B3 {
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+
+#cardProgDiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#cardProgDiv2 #card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#cardProgDiv2 .progress {
+  width: 100px;
+  display: inline-block;
+  background-color: blue;
+}
+
+#div1, #div2, #div3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pro1, #pro2 {
+  width: 250px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
